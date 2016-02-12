@@ -120,7 +120,7 @@ if(!empty($_POST['meetup_ids'])){
               meetupURL: plot.meetup,
               meetupID: plot.meetup_id
             }
-            
+
             $("#events_area").append("<div style='float:left;' id='chapter_"+plot.meetup_id+"' class='chapters'>"+plot.chapter+":&nbsp;</div><div id='events_"+plot.meetup_id+"' style='float:left;' class='events'></div><br/>");
 
             chapterString+=plot.meetup_id;
@@ -166,7 +166,7 @@ if(!empty($_POST['meetup_ids'])){
   </script>
 </head>
 <body>
-<a href="/api"><< Home</a>
+<a href="/api"><< Home</a> 
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
