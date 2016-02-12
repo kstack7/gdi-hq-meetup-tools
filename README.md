@@ -1,3 +1,13 @@
+# GDI HQ Meetup Tools
+Just a few handy tools for HQ/CLs to use with the help of the Meetup API.
+
+* Event Counter - Displays and totals all events in a given date range.
+* ID Grabber - Snags the Meetup ID for chapters to be used in GDI Website Admin settings.
+* Past Events - Lists all past events for a given chapter using Meetup URL.
+* More to come!
+
+The rest of this readme will be devote to the Meetup API so enjoy :)
+
 # Meetup API
 This a very simple, one-file, PHP client for accessing most of the [Meetup API](http://www.meetup.com/meetup_api/).  Some parameters are included behind the scenes so you don't have to using array_merge when the parameters have fixed values like signed or response_type depending on the nature of the request.
 
